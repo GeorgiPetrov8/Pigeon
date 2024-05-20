@@ -1,0 +1,63 @@
+.post{
+  text-align: left;
+}
+
+.profileDelete{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-name {
+  color: #4287f5;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.delete-button{
+	font-size: 10px;
+	height: 30px;
+	width: auto;
+}
+
+.titleDate{
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-title{}
+
+.post-content{
+  text-align: justify;
+}
+
+.post-date{
+  color: grey;
+}
+
+.likesButton{
+  display: flex;
+  width: 100%;
+}
+
+.post-likes{
+  color: red;
+  padding-left: 10px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.like-button{
+  border: none; 
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.like-button:hover .fa.fa-heart {
+  font-size: 15px;
+  color: red;
+  transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out;
+}
